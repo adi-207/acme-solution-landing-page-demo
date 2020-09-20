@@ -1,0 +1,155 @@
+/* core styles */
+
+body  {
+    margin: 0;
+    background-color: #333;
+    text-align: center;
+    line-height: 1.5;
+    color: aliceblue;
+    font-size: 1.1em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1 , h2 ,h3 , p{
+   margin: 0;
+   padding: 1em 0;
+}
+
+
+.button{
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin: 0.5em 0;
+}
+
+.button:hover {
+    background-color: gray;
+}
+
+/* header showcasae */ 
+ 
+.img1 {
+    background-image: url("../images/code1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px ;
+    
+}
+
+.p1 {
+    margin-top: 3em;
+}
+
+/* header showcase */
+
+/* section a */
+
+#section-a  {
+    background-color: #eaeaea;
+    color: #333;
+    padding-bottom: 2em;
+
+}
+
+#section-a .content-wrap {
+    padding: 0 1.5em;
+}
+
+/* section B */
+
+#section-b {
+    
+    padding: 2em 1em 1em;
+}
+
+#section-b .card {
+    
+    margin: 0;
+    padding: 0;
+}
+
+#section-b .card {
+    
+    margin-bottom: 1em;
+    background-color: bisque;
+    color: black;
+}
+
+.card-content {
+    padding: 1.5em;
+}
+
+/* section  C */
+
+#section-c {
+    background: #fff;
+    color: #333;
+    padding: 2em 1em 1em;
+}
+
+/* section D */
+
+#section-d .box {
+    color: #fff;
+    padding: 2em;
+}
+
+#section-d .box:first-child {
+    background: #2690d4;
+}
+
+/* footer */
+
+footer {
+    background-color: black;
+    padding: 1em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #2690d4;
+}
+
+@media (min-width: 700px) {
+
+    
+    #section-b , footer{
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+    }
+      
+      
+    #section-b  .card {
+        background-color: floralwhite;
+        width: 300px;
+        margin: 10px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    #section-d  {
+        display: flex;
+    }
+
+    #section-d .box {
+        width: 50%;
+
+    }
+
+    footer div {
+        width: 50%;
+
+    }
+    
+}
